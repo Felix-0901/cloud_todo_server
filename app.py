@@ -6,6 +6,7 @@ CORS(app)
 
 todos = []
 
+
 @app.route("/todos", methods=["GET"])
 def get_todos():
     return jsonify(todos)
